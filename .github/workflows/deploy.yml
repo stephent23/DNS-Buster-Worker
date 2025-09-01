@@ -1,5 +1,4 @@
 name: Deploy DNS-Buster-Worker
-type: javascript
 
 on:
   push:
