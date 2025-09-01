@@ -1,0 +1,8 @@
+name = "dns-buster"
+main = "src/dns-buster.js"
+compatibility_date = "2023-09-01"
+
+# Attach to your subdomain
+routes = [
+  { pattern = "dns-buster.infosecuriosity.co.uk/*", zone_name = "infosecuriosity.co.uk" }
+]
