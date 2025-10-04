@@ -1,8 +1,9 @@
 name = "dns-buster"
-main = "src/dns-buster.js"
-compatibility_date = "2023-09-01"
+type = "javascript"
+workers_dev=false
 
-# Attach to your subdomain
-routes = [
-  { pattern = "worker.infosecuriosity.co.uk/dns-buster/*", zone_name = "worker.infosecuriosity.co.uk" }
-]
+main = "src/dns-buster.js"
+
+[[routes]]
+pattern = "worker.infosecuriosity.co.uk/dns-buster*"
+custom_domain = true
