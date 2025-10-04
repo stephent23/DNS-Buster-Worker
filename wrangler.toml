@@ -4,5 +4,5 @@ compatibility_date = "2023-09-01"
 
 # Attach to your subdomain
 routes = [
-  { pattern = "dns-buster.infosecuriosity.co.uk/*", zone_name = "infosecuriosity.co.uk" }
+  { pattern = "worker.infosecuriosity.co.uk/dns-buster/*", zone_name = "worker.infosecuriosity.co.uk" }
 ]
