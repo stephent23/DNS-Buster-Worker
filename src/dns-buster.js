@@ -10,7 +10,7 @@ export default {
 
     const dohUrl = `https://cloudflare-dns.com/dns-query?name=${domain}&type=${type}`
     const dohResponse = await fetch(dohUrl, {
-      headers: { 'Accept': 'application/dns-json' }
+      headers: { 'Accept': 'application/dns-json' } 
     })
 
     if (!dohResponse.ok) {
