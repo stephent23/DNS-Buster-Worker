@@ -1,9 +1,11 @@
 name = "dns-buster"
 type = "javascript"
-workers_dev=false
+compatibility_date = "2025-10-04"
 
 main = "src/dns-buster.js"
 
 [[routes]]
 pattern = "worker.infosecuriosity.co.uk/dns-buster*"
 custom_domain = true
+
+workers_dev=false
