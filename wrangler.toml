@@ -4,8 +4,6 @@ compatibility_date = "2025-10-04"
 
 main = "src/dns-buster.js"
 
-[[routes]]
-pattern = "worker.infosecuriosity.co.uk/dns-buster*"
-custom_domain = true
+routes = ["worker.infosecuriosity.co.uk/dns-buster*"]
 
 workers_dev=false
